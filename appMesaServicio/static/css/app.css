@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+header {
+    height: 150px;
+    width: 100%;
+}
+
+section {
+    min-height: 400px;
+    width: 100%;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+
+}
+
+footer {
+    height: 150px;
+    width: 100%;
+
+}
+
+.verdeSena {
+    background-color: rgb(57, 169, 0);
+}
+
+.textoPiePagina {
+    font-size: 2vh;
+}
+
+
+.graficos{
+    height: 50px;
+    width: 50px;
+}
+
+select{
+    height: 50px;
+    width: 50px;
+
+}
+
+.solicitudes{
+ background-color:  rgb(57, 169, 0);
+ color:black;
+ border: solid 2px black;
+ border-radius: 7px;
+ 
+}
+
+
+
+
+
+a{
+    text-decoration: none;
+}
+

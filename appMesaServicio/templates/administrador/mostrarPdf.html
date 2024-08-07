@@ -1,0 +1,32 @@
+{% extends "index.html" %}
+{% block encabezado %}
+{% include "encabezado.html" %}
+{% endblock %}
+{% block menu %}
+{% include "administrador/menu.html" %}
+{% endblock %}
+{% block contenido %}
+<br>
+<br>
+<h3 class="fw-bold text-center">IR A LOS REPORTES EN FORMATO PDF</h3>
+<!-- <div >
+    <ul class="fw-bold text-center">
+        <a    href="/media/solicitudes.pdf/">
+            <li class="solicitudes">Solicitudes</li>
+        </a>
+
+
+        <li>Otro</li> 
+    </ul>
+</div> -->
+
+<div >
+    <ul class="fw-bold text-center">
+        <a  class="solicitudes"  href="/media/solicitudes.pdf/">SOLICITUDES</a>
+           <!-- <li>Otro</li> -->
+    </ul>
+</div>
+{% endblock %}
+{% block piePagina %}
+{% include "piePagina.html" %}
+{% endblock %}
